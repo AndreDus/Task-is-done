@@ -1,0 +1,7 @@
+public class Study {
+     public static void main(String[] args) {
+        int y = 8;
+        int b = 3126-y;
+        System.out.print(b);
+    }
+}
