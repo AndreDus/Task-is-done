@@ -1,0 +1,10 @@
+public class Study {
+    public static void main(String[] args) {
+        String k = "Wizzy is very beautiful";
+        System.out.println(k);
+        System.out.println("Wizzy is very beautiful");
+        System.out.println("Wizzy "+"is very beautiful");
+        System.out.println("Wizzy "+"is very "+"beautiful");
+        System.out.print("Wizzy is very beautiful");
+    }
+}
