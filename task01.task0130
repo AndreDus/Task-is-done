@@ -11,6 +11,6 @@ public class ConverterTemperature {
     }
 
     public static double convertCelsiumToFahrenheit(int celsium) {
-        return 9*celsium/5 + 32;
+        return (double) 9*celsium/5 + 32;
     }
 }
