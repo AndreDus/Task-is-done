@@ -1,0 +1,14 @@
+/* 
+программа, которая вызывает метод sum с параметрами 3 и 4.
+*/
+
+public class Method {
+        public static void main(String[] args) {
+        sum(3,4);
+    }
+
+    public static void sum(int a, int b) {
+        int c = a + b;
+        System.out.print(c);
+    }
+}
