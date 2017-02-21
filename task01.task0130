@@ -1,0 +1,16 @@
+/* 
+конвертер температуры по Цельсию на температуру по Фаренгейту 
+*/
+
+public class ConverterTemperature {
+    public static void main(String[] args) {
+        System.out.print("Input data the temperature C: ");
+        Scanner num = new Scanner(System.in);
+        int celsium = num.nextInt();
+        System.out.println(convertCelsiumToFahrenheit(celsium));
+    }
+
+    public static double convertCelsiumToFahrenheit(int celsium) {
+        return 9*celsium/5 + 32;
+    }
+}
